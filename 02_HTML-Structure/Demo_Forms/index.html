@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1 style="color:purple">FORMS</h1>
+
+    <form action="submitted.html" method="POST">
+      <div>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" placeholder="Here type your Username" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Here type your E-Mail"/>
+      </div>
+
+      <div>
+        <label for="pass">Password</label>
+        <input id="pass" name="pass" type="password" placeholder="Here type your Password"/>
+      </div>
+
+      <div>
+        <h2 style="color: blue">Select a car brand</h2>
+        <label for="volvo">Volvo</label>
+        <input id="volvo" type="checkbox" value="VOLVO" name="brand" />
+
+        <label for="bmw">bmw</label>
+        <input id="bmw" type="checkbox" value="BMW" name="brand" />
+
+        <label for="audi">audi</label>
+        <input id="audi" type="checkbox" value="AUDI" name="brand" />
+      </div>
+
+      <div>
+        <h2 style="color: blueviolet">Select a location</h2>
+        <label for="de">Germany</label>
+        <input id="de" type="radio" name="location" value="D" />
+
+        <label for="bg">Bulgaria</label>
+        <input id="bg" type="radio" name="location" value="BG" />
+
+        <label for="fr">France</label>
+        <input id="fr" type="radio" name="location" value="F" />
+      </div>
+
+      <div>
+        <div>
+          <label for="msg">Message</label>
+        </div>
+        <textarea name="" id="msg" cols="20" rows="10"></textarea>
+      </div>
+
+      <button>Submit <b>text</b></button>
+      <button type="reset">Reset</button>
+      <button type="button">Normal</button>
+
+      <!-- <input type="submit" value="x"> -->
+    </form>
+
+
+    <h2 style="color: red">Outside</h2>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button">Normal</button>
+  </body>
+</html>
