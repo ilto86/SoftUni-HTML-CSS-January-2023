@@ -1,0 +1,28 @@
+/* #text-f {
+    color: blue;
+  } */
+  
+  .lorem {
+    font-size: 21px;
+    color: red;
+  }
+  
+  .lorem.text-2 {
+    color: green;
+  }
+
+  .lorem.text-1 {
+    color: darkmagenta;
+  }
+  
+  
+  .unordered .ul-item {
+    color: orange;
+  }
+  .ordered .ol-item {
+    color: blue;
+  }
+  
+  .btn.danger{
+    background-color: pink;
+  }
