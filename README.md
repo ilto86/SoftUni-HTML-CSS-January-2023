@@ -8,5 +8,5 @@
 - Position & Grid
 - Flexbox
 - Media Queries
-- Design to Code
-- Demo Project
+- Design to Code(Demo Project)
+- Exam Preparation
