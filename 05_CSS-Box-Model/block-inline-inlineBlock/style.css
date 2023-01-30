@@ -1,0 +1,33 @@
+h2 {
+    background-color: burlywood;
+    color: darkblue;
+  }
+  
+  .block {
+    background-color: orange;
+    color: whitesmoke;
+  }
+  
+  label {
+    background-color: cornflowerblue;
+  }
+  
+  .inline {
+    background-color: lightgreen;
+  }
+  
+  .inline-block label {
+    display: inline-block;
+    background-color: darkkhaki;
+  }
+  
+  .inline-block .iblock {
+    display: inline-block;
+    background-color: lightcoral;
+  }
+  
+  .inline-heading{
+      display: inline;
+      background-color: blueviolet;
+      color: greenyellow;
+  }

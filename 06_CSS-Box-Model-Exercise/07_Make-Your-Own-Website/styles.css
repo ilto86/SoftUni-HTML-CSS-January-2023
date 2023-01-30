@@ -1,0 +1,61 @@
+div {
+    display: inline-block;
+    background-color: #0A2C48;
+    color: #fff;
+    width: 280px;
+    padding: 16px;
+    padding-left: 32px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+div:hover {
+    background-color: #2A4C68;
+}
+
+p {
+    color: #c9d6ff;
+    font-size: 18px;
+}
+
+/* My Extra Styling */
+
+div.left {
+    transition: all 400ms linear;
+}
+
+div.left:hover {
+    background-color: #b4c4fb;
+    color: #24445e;
+}
+
+div.left:hover p {
+    color: #24445e;
+}
+
+div.center {
+    transition: all 300ms linear;
+}
+
+div.center:hover {
+    background-color: #c9d6ff;
+    color: #2A4C68;
+}
+
+div.center:hover p {
+    color: #2A4C68;
+}
+
+
+div.right {
+    transition: all 500ms linear;
+}
+
+div.right:hover {
+    background-color: #d1daf8;
+    color: #356186;
+}
+
+div.right:hover p {
+    color: #356186;
+}

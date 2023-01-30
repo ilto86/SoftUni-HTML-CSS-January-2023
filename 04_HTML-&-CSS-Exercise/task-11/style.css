@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: Georgia, serif; */
+  font-family: "Great Vibes";
+}
+
+blockquote {
+  border-left: 4px solid rgb(221, 221, 221);
+  font-style: italic;
+  text-align: center;
+}
+
+blockquote .author{
+    text-align: right;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+table thead {
+  text-align: left;
+  background-color: gray;
+  color: white;
+}
+
+table th,
+table td {
+  border: 1px solid black;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+
+ul{
+    list-style: disc;
+    background-color: #845EC2;
+    color: #B0A8B9;
+}
+ul ul{
+    list-style: square;
+    background-color: #B39CD0;
+    color: #C34A36;
+}
+
+ul ul ul{
+    list-style: circle;
+    background-color: #FBEAFF;
+    color: #FF8066;
+}
+
+/* ul{
+    list-style: lower-greek;
+}
+ul ul{
+    list-style: lower-latin;
+}
+
+ul ul ul{
+    list-style: lower-roman;
+} */

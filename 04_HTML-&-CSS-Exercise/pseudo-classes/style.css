@@ -1,0 +1,42 @@
+.link:visited {
+    color: red;
+  }
+  
+  .link:active {
+    color: green;
+  }
+  
+  
+  .btn{
+    background-color: darkslategray;
+    color: #cc4036;
+    transition: all 300ms linear;
+  }
+  
+  .btn:hover{
+    background-color: #cc4036;
+    color: darkslategray;
+  }
+  
+  .btn:disabled{
+      background-color: lightgray;
+      color: darkgray
+  }
+  
+  .input:focus{
+      background-color: darkslategray;
+      color: #cc4036;
+  }
+  .input:active{
+      background-color: burlywood;
+  }
+
+  h1 {
+    color: cadetblue;
+    font-weight: 600;
+    transition: all 300ms linear;
+  }
+
+  h1:hover {
+    color: darkmagenta;
+  }

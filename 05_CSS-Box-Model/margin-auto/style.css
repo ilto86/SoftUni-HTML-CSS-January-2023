@@ -1,0 +1,14 @@
+.container {
+    border: 2px solid lime;
+    padding: 10px;
+    height: 300px;
+  }
+  
+  .element {
+    margin: 0;
+    /* margin: 0 0 0 auto; */
+    margin-left: auto;
+    background-color: lightgreen;
+    color: darkslategrey;
+    width: 200px;
+  }

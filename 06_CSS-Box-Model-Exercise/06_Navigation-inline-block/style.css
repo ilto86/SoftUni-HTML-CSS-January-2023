@@ -1,0 +1,29 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    padding: 14px;
+}
+
+header {
+    border-bottom: solid 2px black;
+}
+
+header * {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    background-color: #f5fafc;
+    color: #6ae16e;
+    vertical-align: middle;
+    font-weight: 540;
+    margin: 8px 8px;
+    text-decoration: none;
+}
+
+main * {
+    text-align: justify;
+}

@@ -1,0 +1,23 @@
+.container {
+  border: 2px solid red;
+  padding: 5px;
+  text-align: center;
+  height: 200px;
+  background-color: #454545;
+}
+
+.text {
+  display: inline-block;
+  padding: 5px;
+  background-color: gray;
+  color: white;
+  border-radius: 6px;
+  width: 100px;
+  vertical-align: middle;
+}
+
+/* .block{
+    background-color: orange;
+    width: 80%;
+    margin: 0 auto;
+} */

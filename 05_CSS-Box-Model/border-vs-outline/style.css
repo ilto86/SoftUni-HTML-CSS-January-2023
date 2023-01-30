@@ -1,0 +1,11 @@
+.border {
+    border: 10px solid teal;
+    background-color: bisque;
+  }
+  
+  .outline {
+    background-color: whitesmoke;
+    border: 12px solid red;
+    outline: 8px solid green;
+    outline-offset: -15px;
+  }

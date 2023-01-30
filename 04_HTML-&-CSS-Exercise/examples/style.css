@@ -1,0 +1,33 @@
+@import url('./text.css');
+
+/* @font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2)
+    format("woff2");
+} */
+
+p .special-text {
+  background-color: unset;
+  color: green;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+span {
+  background-color: antiquewhite;
+  color: darkblue;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+i {
+  color: rebeccapurple;
+  font-weight: 500;
+}
+
+b {
+  color: brown
+}

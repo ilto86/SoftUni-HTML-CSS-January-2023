@@ -1,0 +1,21 @@
+.title {
+    background-color: orange;
+    margin: 0px;
+    /* display: inline-block; */
+}
+
+.first {
+    margin-bottom: 30px;
+    color: #006572;
+}
+
+.second {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #773500;
+}
+
+.third {
+    margin-top: 120px;
+    color: #007561;
+}

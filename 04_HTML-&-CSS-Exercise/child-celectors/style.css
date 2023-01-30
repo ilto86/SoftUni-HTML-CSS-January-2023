@@ -1,0 +1,59 @@
+/* ul li {
+    background-color: red;
+} */
+
+/* Direct childred */
+ul>li {
+  color: darkblue;
+}
+
+/* Adjacent sibling combinator */
+.container-adjacent p+p {
+  background-color: orange;
+}
+
+.container-adjacent div+p {
+  background-color: darksalmon;
+}
+
+.container-adjacent>p+p {
+  background-color: burlywood;
+}
+
+/* .container-adjacent *{
+      background-color: red;
+  } */
+
+/* General sibling combinator */
+.container-general p~p {
+  background-color: bisque;
+}
+
+.nth-example li {
+  background-color: unset;
+}
+
+.nth-example li:nth-child(4n + 1) {
+  background-color: darkgrey;
+}
+
+h1 {
+  color: #002A58;
+  font-weight: 600;
+  transition: all 300ms linear;
+}
+
+h1:hover {
+  color: #008AC2;
+}
+
+
+h2 {
+  color: #296073;
+  font-weight: 600;
+  transition: all 300ms linear;
+}
+
+h2:hover {
+  color: #9B89B3;
+}
