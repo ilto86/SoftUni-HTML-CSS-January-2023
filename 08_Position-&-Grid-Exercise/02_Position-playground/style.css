@@ -1,0 +1,132 @@
+@import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
+
+/* First Variant */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+section.card {
+    display: block;
+    position: relative;
+}
+
+.first {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(25, 90, 158, 255), rgba(66, 205, 163, 255));
+}
+
+.second {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(167, 50, 120, 255), rgba(211, 129, 17, 255));
+}
+
+.one {
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    left: 20%;
+    top: 20%;
+    padding: 90px 0;
+}
+
+.two {
+    position: absolute;
+    height: 80vh;
+    width: 50vw;
+    padding: 45px 0;
+    left: 20%;
+}
+
+i {
+    color: white;
+    position: relative;
+    bottom: 12px;
+    right: 28px;
+}
+
+
+
+
+/* Second Variant */
+
+/* body {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 0;
+}
+
+.viewport.one {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.viewport.two {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+section.card_one {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(25, 90, 158, 255), rgba(66, 205, 163, 255));
+}
+
+section.card_two {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(167, 50, 120, 255), rgba(211, 129, 17, 255));
+}
+
+.img_one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    height: 50vh;
+}
+
+.img_two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    height: 90vh;
+
+}
+
+i {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 67%;
+    left: 67%;
+    
+}
+
+i.fa-star {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 87%;
+    left: 67%;
+} */

@@ -1,0 +1,63 @@
+ body {
+    /* border-radius: 3px;
+    background: rgb(181, 216, 255);
+    padding: 5px 10px; */
+
+    display: grid;
+    grid-template-areas: 
+    "head head"
+    "aside main"
+    "foot foot";
+    grid-template-columns: 100px auto;
+    gap: 10px;
+ }
+
+ header {
+    border-radius: 3px;
+    background: rgb(181, 216, 255);
+    padding: 5px 10px;
+    /* background-color: lightsalmon; */
+    grid-area: head;
+ }
+
+ header h1 {
+    display: inline block;
+    vertical-align: middle;
+ }
+ 
+ main {
+    border-radius: 3px;
+    background: rgb(181, 216, 255);
+    padding: 5px 10px;
+    /* background-color: lightgreen; */
+    grid-area: main;
+ }
+
+ aside {
+    border-radius: 3px;
+    background: rgb(181, 216, 255);
+    padding: 5px 10px;
+    /* background-color: lightcoral; */
+    grid-area: aside;
+ }
+
+ aside ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+ }
+
+ aside ul li a {
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+ }
+
+ footer {
+    border-radius: 3px;
+    background: rgb(181, 216, 255);
+    padding: 5px 10px;
+    /* background-color: lightpink; */
+    grid-area: foot;
+ }
