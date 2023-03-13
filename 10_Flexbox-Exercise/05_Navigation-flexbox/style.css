@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 20px 120px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    
+    align-items: center;
+}
+
+h1.title {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    width: 40%;
+    text-transform: uppercase;
+}
+
+.navigation{
+    margin-left: auto;
+    width: 60%;
+}
+
+.navigation ul {
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.navigation ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+  }
+
+
+h2 {
+    font-size: 1em;
+    font-family: Georgia, serif;
+}

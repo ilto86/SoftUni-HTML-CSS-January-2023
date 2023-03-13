@@ -1,0 +1,92 @@
+body {
+   display: grid;
+   grid-template-areas:
+      "head head"
+      "aside main"
+      "foot foot";
+   grid-template-columns: 100px auto;
+   gap: 10px;
+}
+
+header {
+   border-radius: 3px;
+   background: rgb(181, 216, 255);
+   padding: 5px 10px;
+   grid-area: head;
+}
+
+header h1 {
+   display: inline block;
+   vertical-align: middle;
+}
+
+main {
+   border-radius: 3px;
+   background: rgb(181, 216, 255);
+   padding: 5px 10px;
+   grid-area: main;
+}
+
+aside {
+   border-radius: 3px;
+   background: rgb(181, 216, 255);
+   padding: 5px 10px;
+   grid-area: aside;
+}
+
+aside ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 5px;
+}
+
+aside ul li a {
+   display: block;
+   padding: 5px 0px;
+   color: rgb(86, 40, 129);
+   text-decoration: none;
+}
+
+footer {
+   border-radius: 3px;
+   background: rgb(181, 216, 255);
+   padding: 5px 10px;
+   grid-area: foot;
+}
+
+.header-nav {
+   display: inline-block;
+   vertical-align: middle;
+   margin-top: 8px;
+}
+
+.header-ul {
+   list-style: none;
+}
+
+.header-li {
+   display: inline;
+}
+
+.header-a {
+   text-decoration: none;
+   color: rgb(53, 100, 153);
+   padding-left: 5px;
+}
+
+@media screen and (max-width: 500px) {
+   body {
+      display: grid;
+      grid-template-areas: 
+      "head head"
+      "aside aside"
+      "main main"
+      "foot foot";
+   }
+
+   .header-a {
+      display: block;
+      padding: 15px;
+      margin-left: 105px;
+   }
+}

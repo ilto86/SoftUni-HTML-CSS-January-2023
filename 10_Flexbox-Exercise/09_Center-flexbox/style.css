@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+div.card {
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+    padding: 12px;
+    border-radius: 8px;
+    /* box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2), 20px 20px 20px 20px rgba(0, 0, 0, 0.19); */
+    /* box-shadow: 20px 20px 20px rgb(0 0 0 / 0.2); */
+
+    box-shadow:
+    0 0 0 10px hsl(0, 0%, 85%),
+    0 0 0 15px hsl(0, 0%, 90%);
+  }

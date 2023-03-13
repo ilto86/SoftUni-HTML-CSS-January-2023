@@ -1,0 +1,297 @@
+@import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
+
+/* div.header-inline-box background-color from #9b9189 to #c7c5c4 */
+/* main p.enter-email background-color: #bab1ad; Enter your email address is color white */
+/* Button Get Started background-color: #67784d color: white; */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px 52px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    max-width: 1880px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Abril Fatface", cursive;
+}
+
+.img-container {
+    background-image: url(image/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    padding: 30px;
+
+    /* position: relative; */
+}
+
+.header-h-box,
+.header-inline-box-p {
+    padding: 20px 10px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 0 0 10px 1px #333333;
+}
+
+.header-h-box .container {
+    width: 70%;
+}
+
+.header-inline-box-p {
+    float: right;
+    width: 350px;
+    height: unset;
+    background-image: linear-gradient(to right, #9b9189, #c9c7c6);
+    color: white;
+    text-align: right;
+
+    /* width: 20%; */
+}
+
+.header-inline-box-p .big {
+    margin-top: -50px;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: normal;
+    color: #8d8581;
+}
+
+.content-container:not(hr) {
+    background-color: #f2f0f3;
+    display: flex;
+    align-items: stretch;
+}
+
+.main-footer-container {
+    padding: 50px;
+}
+
+.aside-container {
+    background-color: #bab1ad;
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+aside {
+    padding: 0.2rem;
+    margin: 0.75rem 6rem 3rem 0rem
+}
+
+.main-p span {
+    font-weight: bold;
+}
+
+.main-p {
+    margin: 20px 0px;
+}
+
+.numbers {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.aside-p {
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+}
+
+.footer-p {
+    padding: 10px;
+}
+
+.items {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.enter-email input {
+    background-color: #9b9189;
+    border: none;
+    color: white;
+
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.enter-email button {
+    background-color: #67784d;
+    border: none;
+    color: white;
+
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.enter-email input::placeholder {
+    color: white;
+}
+
+
+main {}
+
+footer {}
+
+
+
+
+/* GPT-Code */
+
+/* .main-header {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 4px solid black;
+    padding: 6px 6px;
+
+    background-color: #9b9189;
+    background: linear-gradient(#9b9189, #c7c5c4);
+    background: linear-gradient(to right, #9b9189, #c7c5c4 70%, #c7c5c4 80%, #c7c5c4 90%);
+    color: #fff;
+
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    left: 960px;
+    top: 560px;
+} */
+
+/* .main-p {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 4px solid black;
+    padding: 6px 6px;
+
+    background-color: #9b9189;
+    background: linear-gradient(#9b9189, #c7c5c4);
+    background: linear-gradient(to right, #9b9189, #c7c5c4 70%, #c7c5c4 80%, #c7c5c4 90%);
+    color: #fff;
+
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    left: 960px;
+    top: 560px;
+} */
+
+/* .main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 4px solid black;
+    padding: 6px 6px;
+
+    background-color: #9b9189;
+    background: linear-gradient(#9b9189, #c7c5c4);
+    background: linear-gradient(to right, #9b9189, #c7c5c4 70%, #c7c5c4 80%, #c7c5c4 90%);
+    color: #fff;
+
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    left: 960px;
+    top: 560px;
+} */
+
+/* .right-aside {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 4px solid black;
+    padding: 6px 6px;
+
+    background-color: #9b9189;
+    background: linear-gradient(#9b9189, #c7c5c4);
+    background: linear-gradient(to right, #9b9189, #c7c5c4 70%, #c7c5c4 80%, #c7c5c4 90%);
+    color: #fff;
+
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    left: 960px;
+    top: 560px;
+} */
+
+/* .main-header,
+.main-p,
+.main-footer,
+.right-aside {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 4px solid black;
+    padding: 6px 6px;
+
+    
+
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    left: 960px;
+    top: 560px;
+} */
+
+/* .main-header {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+} */
+
+/* .main-p {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+} */
+
+/* .main-footer {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+} */
+
+/* .right-aside {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+} */
+
+/* .main-footer .container {
+    padding: 0.75rem 1rem;
+} */

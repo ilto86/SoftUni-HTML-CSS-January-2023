@@ -1,0 +1,16 @@
+@media (max-width: 500px) {
+   body {
+      display: grid;
+      grid-template-areas: 
+      "head head"
+      "aside aside"
+      "main main"
+      "foot foot";
+   }
+
+   header h1 {
+      display: block;
+      margin-bottom: 5px;
+   }
+}
+

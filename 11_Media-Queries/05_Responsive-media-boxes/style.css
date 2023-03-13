@@ -1,0 +1,114 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+section.card {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 400px;
+  padding: 14px 28px;
+  padding-bottom: 60px;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.card img {
+  position: absolute;
+  width: 100%;
+  top: -76%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+section.card a {
+  background-color: rgb(0, 153, 0);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  padding: 8px 16px;
+  right: 28px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+section.card h3 {
+  font-family: Georgia, serif;
+  font-size: 1em / 1.2;
+}
+
+@media screen and (max-width: 500px) {
+  html {
+      font-size: 12px;
+      font-size: smaller;
+  }
+
+  section.card div {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  html {
+      font-size: 14px;
+      font-size: small;
+  }
+
+  section.card div {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+      font-size: 16px;
+      font-size: small;
+  }
+
+  section.card div {
+      width: auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  html {
+      font-size: 18px;
+      font-size: medium;
+  }
+
+  section.card div {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  html {
+      font-size: 21px;
+      font-size: large;
+  }
+
+  section.card div {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  html {
+    font-size: 23px;
+    font-size: larger;
+  }
+  
+  section.card div {
+    width: auto;
+  }
+}

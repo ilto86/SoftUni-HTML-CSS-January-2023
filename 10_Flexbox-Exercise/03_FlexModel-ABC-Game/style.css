@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+div.container {
+    display: flex;
+    max-width: 15vw;
+    height: 35rem;
+}
+
+span {
+    border: 1px solid black;
+}
+
+/* ---- My own style ---- */
+
+div.container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+}
+
+span {
+    display: flex;
+    align-content: center;
+    margin: 6px;
+    padding: 20px 48px;
+    max-height: 60px;
+}
+
+span:nth-child(1) {
+    background-color: #845ec2;
+    order: 8;
+}
+
+span:nth-child(2) {
+    background-color: #0081cf;
+    order: 1;
+}
+
+span:nth-child(3) {
+    background-color: #d65db1;
+    order: 9;
+}
+
+span:nth-child(4) {
+    background-color: #ff9671;
+    order: 3;
+}
+
+span:nth-child(5) {
+    background-color: #00c9a7;
+    order: 7;
+}
+
+span:nth-child(6) {
+    background-color: #c34a36;
+    order: 6;
+}
+
+span:nth-child(7) {
+    background-color: #845ec2;
+    order: 10;
+}
+
+span:nth-child(8) {
+    background-color: #0081cf;
+    order: 4;
+}
+
+span:nth-child(9) {
+    background-color: #d65db1;
+    order: 5;
+}
+
+span:nth-child(10) {
+    background-color: #ff9671;
+    order: 11;
+}
+
+span:nth-child(11) {
+    background-color: #00c9a7;
+}
+
+span:nth-child(12) {
+    background-color: #c34a36;
+    order: 2;
+}
