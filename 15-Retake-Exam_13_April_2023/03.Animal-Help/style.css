@@ -1,0 +1,327 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
+
+/* General */
+
+body {
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: calc(100% - 40px);
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0 0 25px;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 0 0 25px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0 0 20px;
+}
+
+p {
+    margin: 0 0 30px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+p:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.btn, .btn-donate {
+    padding: 14px 50px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #000;
+}
+
+.btn {
+    background: #000;
+    color: #fff;
+}
+
+.btn-donate {
+    background: #fff;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Header Nav Section */
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+/* Hero section */
+
+.hero {
+    background-color: #86dcff;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 80px;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.actions {
+    display: flex;
+    gap: 25px;
+}
+
+
+/* Volunteer Section */
+
+.volunteer .container {
+    padding: 30px 0;
+}
+
+.volunteer .content {
+    text-align: center;
+}
+
+.entry-wrap {
+    display: flex;
+    gap: 70px;
+}
+
+.entry i {
+    margin: 16px 0px;
+    font-size: 100px;
+    color: #86dcff;
+}
+
+.subtitle {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* Work Section */
+
+.work {
+    background-color: #86dcff;
+}
+
+.work h2 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.work .container {
+    padding: 60px 130px;
+}
+
+.work ul {
+    padding: 30px 0;
+    padding: 40px 340px;
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin: 0;
+}
+
+.work li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.work li:before {
+    content: " ";
+    background: black;
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: -3px;
+}
+
+.btn-wrap {
+    text-align: center;
+}
+
+
+/* Animal Section */
+
+.animals .container {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.animals h2 {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.animal-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+}
+
+
+/* How we work Section */
+
+.how-work .container {
+    padding: 30px 40px;
+}
+
+.how-work h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.work-wrap:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.work-wrap p {
+    font-weight: bold;
+}
+
+.work-box {
+    border: 2px solid #efecec;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.how-work .work-title {
+    margin: 0;
+    background-color: #86dcff;
+    padding: 20px;
+}
+
+.how-work .work-content {
+    margin: 0;
+    padding: 20px 20px 30px 20px;
+}
+
+
+/* Get news and action alerts Section */
+.get-news .container {
+    display: flex;
+    margin: 50px 0px;
+}
+
+.get-news .content {
+    display: flex;
+    gap: 100px;
+}
+
+.img-wrap {
+    width: 1300px;
+}
+
+.input-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+    width: 500px;
+    margin-top: 150px;
+}
+
+.input-actions h1 {
+    font-size: 30px;
+}
+
+.input-actions .btn{
+    width: 200px;
+    padding: 12px 40px;
+
+}
+
+
+/* Footer Section */
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer_div {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: auto;
+}
+
+.footer_ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+}
+
+.fa-brands{
+    font-size: 20px;
+    color: black;
+    margin-right: 12px;
+}
+
+.copy {
+    font-weight: bold;
+}

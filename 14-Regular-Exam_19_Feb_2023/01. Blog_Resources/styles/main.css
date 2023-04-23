@@ -1,0 +1,92 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+  /* ----------------
+    Global 
+  ---------------- */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1000vw;
+  max-height: 100vh;
+  margin: 10%;
+  background-color: #66545e;
+}
+
+div.blog-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: center;
+  align-content: center;
+  background-color: #f6e0b5;
+  width: 80vw;
+  height: 80vh;
+
+}
+
+  /* ----------------
+    Card component 
+  ---------------- */
+
+article.cards {
+  display: flex;
+  gap: 48px;
+}
+
+article.cards h2 {
+  padding: 12px;
+  color: #ffffff;
+}
+
+section.first-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 12px;
+}
+
+section.second-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 12px;
+}
+
+div.card-img {
+  width: 350px;
+  box-shadow: 8px 10px 8px 10px rgba(0, 0, 0, 0.1), 8px 10px 8px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  overflow: hidden;
+  background-color: #66545e;
+  border: 1px solid black;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+div.card-img img {
+  background-image: cover;
+  object-fit: cover;
+}
+  
+  /* ----------------
+    Navigation 
+  ---------------- */
+
+article.navigation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 400px;
+  height: 400px;
+  color: #63525e;
+}
+
+.navi h2 {
+  margin-bottom: 24px;
+}
+
+.navigation .nav {
+  padding: 12px;
+  max-width: 330px;
+}

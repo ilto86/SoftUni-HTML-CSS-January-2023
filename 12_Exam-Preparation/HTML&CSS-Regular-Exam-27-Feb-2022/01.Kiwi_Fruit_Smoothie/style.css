@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    font-family: 'PT Serif', serif;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+#card {
+    margin: 70px auto;
+    border: 1px solid black;
+
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    width: 900px;
+    
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+    box-shadow: 1px 1px 16px 4px gray;
+    font-weight: 400;
+    
+    /* transform: translate(-50%, -50%); */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
+
+    background-image: url(image/image1.png);
+    background-repeat: repeat-y;
+
+    background-size: contain;
+    background-position: left;
+    padding: 24px 0;
+}
+
+#image {
+    width: 450px;
+    overflow: hidden;
+}
+
+
+#text {
+    margin-top: 0;
+    padding: 16px 0px;
+    width: 450px;
+    aspect-ratio: 1/1;
+    padding-right: 70px;
+    padding-left: 24px;
+    background-image: url(image/image1.png);
+    background-size: fill;
+    
+    background-position-x: -20px;
+    background-position-y: -10px;
+}
+
+#title {
+    margin-top: 0;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+}
+.ingredients {
+    line-height: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.description {
+    line-height: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+#title h1 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+#title hr {
+    border: 1px dotted green;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-style: italic;
+}
+
+span {
+    color: green;
+    font-weight: 600;
+}
+
+#text > table{
+    border: solid green;
+    border-collapse: collapse;
+    overflow: scroll;
+    width: 100%;
+    
+}
+
+th, td {
+    border: solid green;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#image {
+    width: 400px;
+    height: 460px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+} 

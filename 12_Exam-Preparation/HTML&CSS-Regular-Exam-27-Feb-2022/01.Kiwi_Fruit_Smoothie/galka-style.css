@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "PT Serif", sans-serif;
+}
+
+.container,
+.image {
+  width: 500px;
+  height: 400px;
+  margin: 80px 0;
+}
+
+img {
+  width: 450px;
+  height: 350px;
+  margin: 30px;
+}
+
+.container {
+  background-image: url(image/image1.png);
+  background-size: cover;
+  padding-left: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: solid green;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: solid green;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+span {
+  color: green;
+}
+
+header p {
+  display: inline-block;
+  font-style: italic;
+  margin: 0;
+  position: relative;
+}
+
+body > div.container > header > p:nth-child(4) {
+  position: relative;
+  left: 250px;
+}
+
+hr {
+  border: 1px dotted green;
+  /* border-style: dotted; */
+}

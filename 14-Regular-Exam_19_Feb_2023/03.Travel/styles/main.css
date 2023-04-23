@@ -1,0 +1,263 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400&display=swap');
+
+/* ----------------
+    Global 
+    font-size: 18px = 1rem
+  ---------------- */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    /* scrollbar-width: hidden; */
+}
+
+.btn {
+    border: none;
+    border-radius: 48px;
+    padding: 0.25rem 2rem;
+    background-color: #370511;
+    color: white;
+}
+
+
+/* ----------------
+    Header Section component 
+  ---------------- */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    padding: 900px 900px;
+    padding: 1.5rem 4rem;
+    position: absolute;
+    top: 0px;
+    left: 380px;
+    width: 66%;
+    z-index: 10;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .header-title {
+    font-weight: 800;
+}
+
+.header .nav {
+    margin-left: auto;
+    margin-right: 42px;
+}
+
+.header .nav .nav-list {
+    display: flex;
+    gap: 12px;
+}
+
+.header .nav .nav-item .nav-item-link {
+    color: #48484ef4;
+    text-decoration: none;
+    font-weight: 510;
+    
+}
+
+
+/* ----------------
+    Main Section component 
+  ---------------- */
+
+#hero {
+    height: 100vh;
+    position: relative;
+    /* color: black; */
+    /* text-align: left; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(0, 0, 0, 1) 100%
+    );
+    opacity: 0.1;
+}
+
+#hero .hero-bg {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#hero .wrapper {
+    width: 100%;
+    position: relative;
+    left: 450px;
+}
+
+#hero .hero-title {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+}
+
+#hero .hero-small-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #48484ef4;
+    margin-bottom: 2.25rem;
+}
+
+#hero .subtitle {
+    font-size: 1rem;
+}
+
+#hero .hero-btn {
+    margin-top: 2.5rem;
+}
+
+
+/* ----------------
+    Main Title 
+  ---------------- */
+
+.main-title {
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    width: 100%;
+    text-align: center;
+    /* padding-top: 2rem; */
+    /* margin-top: 0.25rem; */
+}
+
+.main-title h1 {
+    padding-top: 2rem;
+}
+
+.main-title h3 {
+    color: #48484ef4;
+}
+
+
+/* ----------------
+    Cards component 
+  ---------------- */
+
+.cards {
+    background-color: white;
+    position: absolute;
+    top: 95%;
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 1840px;
+
+    /* max-height: 1640px; */
+
+    /* max-width: 100rem;
+    max-height: 100rem; */
+
+    /* gap: 18px; */
+    gap: 1rem;
+    
+    /* margin: 72px; */
+    padding: 6.7rem;
+}
+
+
+/* ----------------
+    Card component 
+  ---------------- */
+
+.card {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* background-color: coral; */
+    border-radius: 4%;
+    /* font-size: 72px; */
+    /* font-size: 4rem; */
+    width: 520px;
+    height: 700px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: cover;
+    position: relative;
+}
+
+.card p {
+    padding: 0 4rem;
+}
+
+.card img {
+    object-fit: cover;
+    width: 520px;
+    height: 420px;
+
+    /* border-top-right-radius: 4%; */
+    /* border-top-left-radius: 4%; */
+    border-radius: 2% 2% 0% 0%;
+}
+
+.discover-btn {
+    border: 1px solid black;
+    border-radius: 38px;
+    padding: 0.55rem 2rem;
+    background-color: white;
+    color: black;
+}
+
+
+footer {
+    position: absolute;
+    bottom: -175%;
+
+    background-color: black;
+    color: white;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 24px 24px;
+    text-align: center;
+}
+
+footer > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    gap: 16px;
+}
+
+.icons {
+    font-size: 21px;
+    display: flex;
+    gap: 28px;
+}

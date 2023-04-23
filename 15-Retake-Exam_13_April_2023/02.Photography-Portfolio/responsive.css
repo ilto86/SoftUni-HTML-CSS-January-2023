@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px){
+    .navigation-nav {
+        display: none;
+    }
+
+    .home-text {
+        display: hidden;
+    }
+
+    .home-tab-selector-cards-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home-top-part {
+        flex-direction: column;
+    }
+    
+    .home-image-container {
+        display: none;
+    }
+
+    .section-container {
+        padding-top: 34px;
+        padding-bottom: 34px;
+    }
+
+
+    .home-links-container {
+        display: grid;
+        gap: 32px;
+        grid-template-columns: (1, 1fr);
+        padding-bottom: 28px;
+    }
+
+    .home-text10 {
+        margin-right: 28px;
+    }
+
+    .home-subscribe-container {
+        width: 100%;
+    }
+
+    .home-subscribe-container > button {
+        padding: 24px;
+    }
+}

@@ -1,0 +1,245 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"); */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+  
+
+
+  /* Global styles */
+  
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    /* color: #3f3f3f; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+  /* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 70px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-site-title {
+  font-size: 36px;
+  padding-right: 25px;
+  position: relative;
+}
+
+.header-logo-site-title::after {
+  content: '';
+  width: 1px;
+  height: 90%;
+  background: gray;
+  position: absolute;
+  right: 11px;
+}
+
+.header-logo-site-source {
+  color: gray;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.header-nav-list {
+  padding-right: 0;
+  display: flex;
+}
+
+.header-nav-list-item {
+  list-style: none;
+  background: #ececec;
+  padding: 18px;
+  margin: 0 1px;
+}
+
+.header-nav-list-item-link {
+  text-decoration: none;
+  color: black;
+}
+
+.header-nav-list-item.active {
+  background: #e24e2a;
+}
+
+.header-nav-list-item.active a{
+  color: white;
+}
+
+  /* Main intro Section */
+
+.intro-img {
+  width: 100%;
+}
+
+.intro-img img {
+  width: 100%;
+  height: 100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.intro-content {
+  text-align: center;
+  background: #e24e2a;
+  padding: 80px 160px;
+  color: #fde5cd;
+  margin-top: -10px;
+}
+
+.intro-content-text {
+  line-height: 38px;
+}
+
+.intro-content-text a{
+  color: #fde5cd;
+}
+
+
+  /* Main Benefits Section */
+
+.benefits {
+  background: #383838;
+  padding: 80px 130px;
+  display: flex;
+}
+
+.benefit {
+  margin: 0 12px;
+}
+
+.benefit-img {
+  background: #e24e2a;
+  padding: 30px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.benefit-img i {
+  color: white;
+  font-size: 55px;
+}
+
+.benefit-title {
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.benefit-title::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #4f4f4d;
+  position: absolute;
+  left: 0;
+  bottom: 18px;
+}
+
+.benefit:first-child .benefit-title::after {
+  bottom: 5px;
+}
+
+.benefit-text {
+  color: #6c6c6a;
+  text-align: center;
+}
+
+
+  /* Main Cta Section */
+
+.cta {
+  padding: 80px 100px;
+  text-align: center;
+}
+
+.cta-title {
+  margin-bottom: 0;
+  font-weight: normal;
+  color: #555555;
+}
+
+.cta-text {
+  color: #a3a5a9;
+  margin-top: 0;
+}
+
+.cta-btn {
+  background: #1b9772;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 12px 26px;
+  margin-top: 20px;
+  border: none;
+}
+
+  /* Main Skill Sections */
+
+.skills {
+  padding: 90px 50px;
+  display: flex;
+  align-items: center;
+  background: #383838;
+  text-align: center;
+}
+
+.skill {
+  margin: 0 10px;
+}
+
+.skill-title {
+  color: white;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.skill-text {
+  color: #6c6c6a;
+}
+
+
+  /* Footer */
+
+#footer {
+  background-color: #1b9772;
+  /* color:  #3aa483; */
+}
+
+#footer .resources {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#footer .resources .resource {
+  padding: 0 1rem;
+  color:  #3aa483;
+}
+
+#footer .resources .divider {
+  height: 27px;
+  width: 2px;
+  background-color:  #3aa483;
+}
+
+#footer a {
+  color: #8ec2aa;
+  text-decoration: none;
+  font-size: 18px;
+}
