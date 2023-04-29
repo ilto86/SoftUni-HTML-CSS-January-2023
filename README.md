@@ -6,7 +6,7 @@
 
 <br />
 
-|                                                       JS Front-End                                                          |                           Certificate                           |
+|                                                       HTML & CSS                                                          |                           Certificate                           |
 |:-----------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------:|
 | [HTML & CSS - January 2023](https://softuni.bg/trainings/3975/html-and-css-january-2023) 	| [Link](https://softuni.bg/certificates/details/169937/11e48e84) |
 
